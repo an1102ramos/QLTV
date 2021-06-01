@@ -6,57 +6,57 @@
 			<div class="row">	
 			<div class="span12">	
 		
-             <div class="alert alert-info">Add Member</div>
-			<p><a href="member.php" class="btn btn-info"><i class="icon-arrow-left icon-large"></i>&nbsp;Back</a></p>
+             <div class="alert alert-info">Thêm thành viên</div>
+			<p><a href="member.php" class="btn btn-info"><i class="icon-arrow-left icon-large"></i>&nbsp;Trở lại</a></p>
 	<div class="addstudent">
-	<div class="details">Please Enter Details Below</div>		
+	<div class="details">Vui lòng điền thông tin thành viên</div>		
 	<form class="form-horizontal" method="POST" action="member_save.php" enctype="multipart/form-data">
 			
 		<div class="control-group">
-			<label class="control-label" for="inputEmail">Firstname:</label>
+			<label class="control-label" for="inputEmail">Tên:</label>
 			<div class="controls">
-			<input type="text" id="inputEmail" name="firstname"  placeholder="Firstname" required>
+			<input type="text" id="inputEmail" name="firstname"  placeholder="Tên" required>
 
 			</div>
 		</div>
 		<div class="control-group">
-			<label class="control-label" for="inputPassword">Lastname:</label>
+			<label class="control-label" for="inputPassword">Họ:</label>
 			<div class="controls">
-			<input type="text" id="inputPassword" name="lastname"  placeholder="Lastname" required>
+			<input type="text" id="inputPassword" name="lastname"  placeholder="Họ" required>
 			</div>
 		</div>
 		<div class="control-group">
-			<label class="control-label" for="inputPassword">Gender:</label>
+			<label class="control-label" for="inputPassword">Giới tính:</label>
 			<div class="controls">
 			<select name="gender" required>
 				<option></option>
-				<option>Male</option>
-				<option>Female</option>
+				<option>Nam</option>
+				<option>Nữ</option>
 			</select>
 			</div>
 		</div>
 		<div class="control-group">
-			<label class="control-label" for="inputPassword">Adddress:</label>
+			<label class="control-label" for="inputPassword">Địa chỉ:</label>
 			<div class="controls">
-			<input type="text" id="inputPassword" name="address"  placeholder="Address" required>
+			<input type="text" id="inputPassword" name="address"  placeholder="Địa chỉ" required>
 			</div>
 		</div>
 		<div class="control-group">
-			<label class="control-label" for="inputPassword">Cellphone Number:</label>
+			<label class="control-label" for="inputPassword">SĐT:</label>
 			<div class="controls">
-			<input type='tel' pattern="[0-9]{11,11}" class="search" name="contact"  placeholder="Phone Number"  autocomplete="off"  maxlength="11" >
+			<input type='tel' pattern="[0-9]{11,11}" class="search" name="contact"  placeholder="Số điện thoại"  autocomplete="off"  maxlength="11" >
 			</div>
 		</div>
 		<div class="control-group">
-			<label class="control-label" for="inputPassword">Type:</label>
+			<label class="control-label" for="inputPassword">Loại thành viên:</label>
 			<div class="controls">
 			<select name="type" required>
 			
 			
 			
 									<option></option>
-									<option>Student</option>
-									<option>Teacher</option>
+									<option>Sinh viên</option>
+									<option>Giảng viên</option>
 									<option></option>
 									
 				</select>
@@ -64,17 +64,17 @@
 		</div>
 			
 		<div class="control-group">
-			<label class="control-label" for="inputPassword">Year Level:</label>
+			<label class="control-label" for="inputPassword">Năm học:</label>
 			<div class="controls">
 				<select name="year_level" >
 					
 
 									<option> </option>
-									<option>First Year</option>
-									<option>Second Year</option>
-									<option>Third Year</option>
-									<option>Fourth Year</option>
-									<option>Faculty</option>
+									<option>Năm 1</option>
+									<option>Năm 2</option>
+									<option>Năm 3</option>
+									<option>Năm 4</option>
+									<option>Giảng dạy</option>
 				</select>
 			</div>
 		</div>
@@ -86,7 +86,7 @@
 		
 		<div class="control-group">
 			<div class="controls">
-			<button name="submit" type="submit" class="btn btn-success"><i class="icon-save icon-large"></i>&nbsp;Save</button>
+			<button name="submit" type="submit" class="btn btn-success"><i class="icon-save icon-large"></i>&nbsp;Lưu</button>
 			</div>
 		</div>
     </form>					

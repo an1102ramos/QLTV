@@ -7,45 +7,45 @@
 			<div class="span12">	
 			   <div class="alert alert-info">
                                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                                    <strong><i class="icon-user icon-large"></i>&nbsp;Books Table</strong>
+                                    <strong><i class="icon-user icon-large"></i>&nbsp;Bảng sách</strong>
                                 </div>
 						<!--  -->
 								    <ul class="nav nav-pills">
-										<li><a href="books.php">All</a></li>
-										<li><a href="new_books.php">New Books</a></li>
-										<li class="active"><a href="old_books.php">Old Books</a></li>
-										<li><a href="lost.php">Lost Books</a></li>
-										<li><a href="damage.php">Damage Books</a></li>
-										<li><a href="sub_rep.php">Subject for Replacement</a></li>
+										<li><a href="books.php">Tất cả</a></li>
+										<li><a href="new_books.php">Sách mới</a></li>
+										<li class="active"><a href="old_books.php">Sách cũ</a></li>
+										<li><a href="lost.php">Sách mất</a></li>
+										<li><a href="damage.php">Sách hỏng</a></li>
+										<li><a href="sub_rep.php">Sách thay thế</a></li>
 									</ul>
 						<!--  -->
 						<center class="title">
-						<h1>Old Books</h1>
+						<h1>Sách cũ</h1>
 						</center>
                             <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">
 								<div class="pull-right">
 								<a href="" onclick="window.print()" class="btn btn-info"><i class="icon-print icon-large"></i> Print</a>
 								</div>
-								<p><a href="add_books.php" class="btn btn-success"><i class="icon-plus"></i>&nbsp;Add Books</a></p>
+								<p><a href="add_books.php" class="btn btn-success"><i class="icon-plus"></i>&nbsp;Thêm sách</a></p>
 							
                                 <thead>
                                     <tr>
-									    <th>Acc No.</th>                                 
-                                        <th>Book Title</th>                                 
-                                        <th>Category</th>
-										<th>Author</th>
-										<th class="action">copies</th>
-										<th>Book Pub</th>
-										<th>Publisher Name</th>
-										<th>ISBN</th>
-										<th>Copyright Year</th>
-										<th>Date Added</th>
-										<th class="action">Action</th>		
+									    <th>STT</th>                                 
+                                        <th>Tên sách</th>                                 
+                                        <th>Danh mục</th>
+										<th>Tác giả</th>
+										<th class="action">Bản sao</th>
+										<th>Nơi xuất bản</th>
+										<th>Nhà xuất bản</th>
+										<th>Mã sách</th>
+										<th>Năm xuất bản</th>
+										<th>Ngày thêm</th>										
+										<th class="action">Hoạt động</th>	
                                     </tr>
                                 </thead>
                                 <tbody>
 								 
-                                  <?php  $user_query=mysqli_query($conn,"select * from book where status = 'old'")or die(mysqli_error());
+                                  <?php  $user_query=mysqli_query($conn,"select * from book where status = 'Sách cũ'")or die(mysqli_error());
 									while($row=mysqli_fetch_array($user_query)){
 									$id=$row['book_id'];  
 									$cat_id=$row['category_id'];
@@ -68,9 +68,9 @@
 									 <td><?php echo $row['date_added']; ?></td>
 									<?php include('toolttip_edit_delete.php'); ?>
                                     <td class="action">
-                                        <a rel="tooltip"  title="Delete" id="<?php echo $id; ?>" href="#delete_book<?php echo $id; ?>" data-toggle="modal"    class="btn btn-danger"><i class="icon-trash icon-large"></i></a>
+                                        <a rel="tooltip"  title="Xóa" id="<?php echo $id; ?>" href="#delete_book<?php echo $id; ?>" data-toggle="modal"    class="btn btn-danger"><i class="icon-trash icon-large"></i></a>
                                         <?php include('delete_book_modal.php'); ?>
-										<a  rel="tooltip"  title="Edit" id="e<?php echo $id; ?>" href="edit_book.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-pencil icon-large"></i></a>
+										<a  rel="tooltip"  title="Sửa" id="e<?php echo $id; ?>" href="edit_book.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-pencil icon-large"></i></a>
 										
                                     </td>
 									

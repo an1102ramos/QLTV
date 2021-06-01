@@ -5,25 +5,25 @@
 			<div class="control-group">
 				<label class="control-label" for="inputEmail">Tên đăng nhập</label>
 				<div class="controls">
-				<input type="text" id="inputEmail" name="username" placeholder="Username" required>
+				<input type="text" id="inputEmail" name="username" placeholder="Tên đăng nhập" required>
 				</div>
 			</div>
 			<div class="control-group">
 				<label class="control-label" for="inputPassword">Mật khẩu</label>
 				<div class="controls">
-				<input type="password" name="password" id="inputPassword" placeholder="Password" required>
-				</div>
-			</div>
-				<div class="control-group">
-				<label class="control-label" for="inputEmail">Họ</label>
-				<div class="controls">
-				<input type="text" id="inputEmail" name="firstname" placeholder="Username" required>
+				<input type="password" name="password" id="inputPassword" placeholder="Mật khẩu" required>
 				</div>
 			</div>
 				<div class="control-group">
 				<label class="control-label" for="inputEmail">Tên</label>
 				<div class="controls">
-				<input type="text" id="inputEmail" name="lastname" placeholder="Username" required>
+				<input type="text" id="inputEmail" name="firstname" placeholder="Tên" required>
+				</div>
+			</div>
+				<div class="control-group">
+				<label class="control-label" for="inputEmail">Họ</label>
+				<div class="controls">
+				<input type="text" id="inputEmail" name="lastname" placeholder="Họ" required>
 				</div>
 			</div>
 			<div class="control-group">

@@ -16,7 +16,7 @@
 					?>
 					<li   class="active"><a href="books.php"><i class="icon-book icon-large"></i>&nbsp;Sách</a></li>
 					<li><a href="member.php"><i class="icon-group icon-large"></i>&nbsp;Thành viên</a></li>
-					<li><a href="archive.php"><i class="icon-list-alt icon-large"></i>&nbsp;Khi</a></li>
+					<li><a href="archive.php"><i class="icon-list-alt icon-large"></i>&nbsp;Kho</a></li>
 					<li><a href="#myModal" data-toggle="modal"><i class="icon-search icon-large"></i>&nbsp;Tìm kiếm nâng cao</a></li>
 					<!-- <li><a href="section.php"><i class="icon-group icon-large"></i>&nbsp;Sections</a></li> -->
 				

@@ -1,29 +1,30 @@
 <?php include('header.php'); ?>
 <?php include('session.php'); ?>
 <?php include('navbar_member.php'); ?>
+<meta charset="utf-8">
     <div class="container">
 		<div class="margin-top">
 			<div class="row">	
 			<div class="span12">	
 			   <div class="alert alert-info">
                                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                                    <strong><i class="icon-user icon-large"></i>&nbsp;Member Table</strong>
+                                    <strong><i class="icon-user icon-large"></i>&nbsp;Bảng thành viên</strong>
                                 </div>
                             <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">
                              
-								<p><a href="add_member.php" class="btn btn-success"><i class="icon-plus"></i>&nbsp;Add Member</a></p>
+								<p><a href="add_member.php" class="btn btn-success"><i class="icon-plus"></i>&nbsp;Thêm thành viên</a></p>
 							
                                 <thead>
                                     <tr>
                        
-                                        <th>Name</th>                                 
-                                        <th>Gender</th>
-										<th>Address</th>
-										<th>Contact</th>
-										<th>Type</th>
-										<th>Year level</th>
-										<th>Status</th>
-										<th>Action</th>
+                                        <th>Tên</th>                                 
+                                        <th>Giới tính</th>
+										<th>Địa chỉ</th>
+										<th>SĐT</th>
+										<th>Loại thành viên</th>
+										<th>Năm học</th>
+										<th>Trạng thái</th>
+										<th>Hoạt động</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -43,9 +44,9 @@
 									<td><?php echo $row['status']; ?></td> 
 									<?php include('toolttip_edit_delete.php'); ?>
                                     <td width="100">
-                                        <a rel="tooltip"  title="Delete" id="<?php echo $id; ?>" href="#delete_student<?php echo $id; ?>" data-toggle="modal"    class="btn btn-danger"><i class="icon-trash icon-large"></i></a>
+                                        <a rel="tooltip"  title="Xóa" id="<?php echo $id; ?>" href="#delete_student<?php echo $id; ?>" data-toggle="modal"    class="btn btn-danger"><i class="icon-trash icon-large"></i></a>
                                         <?php include('delete_student_modal.php'); ?>
-										<a  rel="tooltip"  title="Edit" id="e<?php echo $id; ?>" href="edit_member.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-pencil icon-large"></i></a>
+										<a  rel="tooltip"  title="Sửa" id="e<?php echo $id; ?>" href="edit_member.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-pencil icon-large"></i></a>
 										
                                     </td>
 									

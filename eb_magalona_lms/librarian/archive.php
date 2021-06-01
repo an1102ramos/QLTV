@@ -7,12 +7,12 @@
 			<div class="span12">	
 						<!--  -->
 								    <ul class="nav nav-pills">
-										<li   class="active"><a href="archive.php">Archive</a></li>
+										<li   class="active"><a href="archive.php">Kho lưu trữ</a></li>
 									
 									</ul>
 						<!--  -->
 						<center class="title">
-						<h1>Books List</h1>
+						<h1>Danh sách</h1>
 						</center>
                             <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">
 								<div class="pull-right">
@@ -21,20 +21,20 @@
 							
                                 <thead>
                                     <tr>
-									    <th>Acc No.</th>                                 
-                                        <th>Book Title</th>                                 
-                                        <th>Category</th>
-										<th>Author</th>
-										<th class="action">copies</th>
-										<th>Book Pub</th>
-										<th>Publisher Name</th>
-										<th>ISBN</th>
-										<th>Copyright Year</th>	
+									    <th>STT</th>                                 
+                                        <th>Tên sách</th>                                 
+                                        <th>Danh mục</th>
+										<th>Tác giả</th>
+										<th class="action">Bản sao</th>
+										<th>Nơi xuất bản</th>
+										<th>Nhà xuất bản</th>
+										<th>Mã sách</th>
+										<th>Năm xuất bản</th>	
                                     </tr>
                                 </thead>
                                 <tbody>
 								 
-                                  <?php  $user_query=mysqli_query($conn,"select * from book where status = 'Archive'")or die(mysqli_error());
+                                  <?php  $user_query=mysqli_query($conn,"select * from book where status = 'Kho'")or die(mysqli_error());
 									while($row=mysqli_fetch_array($user_query)){
 									$id=$row['book_id'];  
 									$cat_id=$row['category_id'];

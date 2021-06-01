@@ -46,13 +46,13 @@
                                 <thead>
                                     <tr>
                        
-                                        <th>Acc No.</th>                                 
-                                        <th>Book title</th>                                 
-                                        <th>Category</th>
-										<th>Author</th>
-										<th>Publisher name</th>
-										<th>status</th>
-										<th>Add</th>
+                                        <th>STT</th>                                 
+                                        <th>Tên sách</th>                                 
+                                        <th>Danh mục</th>
+										<th>Tác giả</th>
+										<th>Nhà xuất bản</th>
+										<th>Tình trạng</th>
+										<th>Thêm</th>
 										
                                     </tr>
                                 </thead>
