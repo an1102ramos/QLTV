@@ -23,7 +23,7 @@
 $N = count($id);
 for($i=0; $i < $N; $i++)
 {
-	 mysqli_query($conn,"insert borrowdetails (book_id,borrow_id,borrow_status) values('$id[$i]','$borrow_id','pending')")or die(mysqli_error());
+	 mysqli_query($conn,"insert borrowdetails (book_id,borrow_id,borrow_status) values('$id[$i]','$borrow_id','đang mượn')")or die(mysqli_error());
 
 }
 header("location: borrow.php");

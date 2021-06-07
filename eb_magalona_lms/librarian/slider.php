@@ -2,56 +2,54 @@
     	<div style="overflow:hidden; width:960px; margin:0 auto; padding:0 20px;"> 
                 <div class="pix_diapo">
 
-                    <div data-thumb="../LMS/EB1.jpg">
-                        <img src="../LMS/EB1.jpg">
-                      
+                    <div data-thumb="../LMS/EB8.png" data-time="7000">
+                        <img src="../LMS/EB8.png">                      
                     </div>
                     
-                    <div data-thumb="../LMS/EB2.jpg">
-                        <img src="../LMS/EB2.jpg"> 
-                       
+                    <div data-thumb="../LMS/EB9.jpeg" data-time="7000">
+                        <img src="../LMS/EB9.jpeg">                       
                     </div>
                     
-                    <div data-thumb="../LMS/EB3.jpg" data-time="7000">
-                        <img src="../LMS/EB3.jpg">
+                    <div data-thumb="../LMS/EB1.png" data-time="7000">
+                        <img src="../LMS/EB1.png">
                     </div>
 					
-					<div data-thumb="../LMS/EB4.jpg" data-time="7000">
-                        <img src="../LMS/EB4.jpg">
+					<div data-thumb="../LMS/EB4.png" data-time="7000">
+                        <img src="../LMS/EB4.png">
                     </div>
 					
-					<div data-thumb="../LMS/EB5.jpg" data-time="7000">
-                        <img src="../LMS/EB5.jpg">
+					<div data-thumb="../LMS/EB5.png" data-time="7000">
+                        <img src="../LMS/EB5.png">
                     </div>
 					
-					<div data-thumb="../LMS/EB6.jpg" data-time="7000">
-                        <img src="../LMS/EB6.jpg">
+					<div data-thumb="../LMS/EB6.png" data-time="7000">
+                        <img src="../LMS/EB6.png">
                     </div>
 					
-					<div data-thumb="../LMS/EB7.jpg" data-time="7000">
-                        <img src="../LMS/EB7.jpg">
+					<div data-thumb="../LMS/EB7.png" data-time="7000">
+                        <img src="../LMS/EB7.png">
                     </div>
 					
-					<div data-thumb="../LMS/EB8.jpg" data-time="7000">
-                        <img src="../LMS/EB8.jpg">
+					<div data-thumb="../LMS/EB2.png" data-time="7000">
+                        <img src="../LMS/EB2.png">
                     </div>
 					
-					<div data-thumb="../LMS/EB9.jpg" data-time="7000">
-                        <img src="../LMS/EB9.jpg">
+					<div data-thumb="../LMS/EB3.png" data-time="7000">
+                        <img src="../LMS/EB3.png">
                     </div>
 					<div data-thumb="../LMS/EB10.jpg" data-time="7000">
                         <img src="../LMS/EB10.jpg">
                     </div>
 					
-					<div data-thumb="../LMS/EB14.jpg" data-time="7000">
+					<div data-thumb="../LMS/EB11.jpg" data-time="7000">
                         <img src="../LMS/EB14.jpg">
                     </div>
 					
-					<div data-thumb="../LMS/EB15.jpg" data-time="7000">
+					<div data-thumb="../LMS/EB12.jpg" data-time="7000">
                         <img src="../LMS/EB15.jpg">
                     </div>
 					
-					<div data-thumb="../LMS/EB16.jpg" data-time="7000">
+					<div data-thumb="../LMS/EB13.jpg" data-time="7000">
                         <img src="../LMS/EB16.jpg">
                     </div>
                     

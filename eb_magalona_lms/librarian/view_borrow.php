@@ -43,7 +43,7 @@
                                     <td><?php echo $row['due_date']; ?> </td>
 									<td><?php echo $row['date_return']; ?> </td>
 									<td><?php echo $row['borrow_status'];?></td>
-									<td> <a rel="tooltip"  title="Return" id="<?php echo $borrow_details_id; ?>" href="#delete_book<?php echo $borrow_details_id; ?>" data-toggle="modal"    class="btn btn-success"><i class="icon-check icon-large"></i>Return</a>
+									<td> <a rel="tooltip"  title="Return" id="<?php echo $borrow_details_id; ?>" href="#delete_book<?php echo $borrow_details_id; ?>" data-toggle="modal"    class="btn btn-success"><i class="icon-check icon-large"></i>Trả sách</a>
                                     <?php include('modal_return.php'); ?>
                                     <td></td> 
 									 

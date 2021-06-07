@@ -44,7 +44,7 @@
 		<div class="control-group">
 			<label class="control-label" for="inputPassword">SĐT:</label>
 			<div class="controls">
-			<input type='tel' pattern="[0-9]{11,11}" class="search" name="contact"  placeholder="Số điện thoại"  autocomplete="off"  maxlength="11" >
+			<input type='tel' pattern="[0-9]{10,10}" class="search" name="contact"  placeholder="Số điện thoại"  autocomplete="off"  maxlength="10" >
 			</div>
 		</div>
 		<div class="control-group">

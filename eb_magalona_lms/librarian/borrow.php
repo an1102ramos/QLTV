@@ -40,7 +40,7 @@
 				</div>
 				</div>
 				<div class="span8">
-						<div class="alert alert-success"><strong>Select Book</strong></div>
+						<div class="alert alert-success"><strong>Chọn sách</strong></div>
                             <table cellpadding="0" cellspacing="0" border="0" class="table" id="example">
 
                                 <thead>

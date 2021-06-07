@@ -9,32 +9,32 @@
 					
 					<table width="450" style="margin: 0pt auto;">
 	
-	<thead><tr><th colspan="3" style="text-align: center;"><h3>LIBRARY HOURS</h3></th></tr></thead>
+	<thead><tr><th colspan="3" style="text-align: center;"><h3>GIỜ LÀM VIỆC</h3></th></tr></thead>
 	<tbody>
 	<tr>
 	<td colspan="3"></td>
 	</tr>
 	<tr>
-	<td>Monday and Tuesday</td>
-	<td>NO NOON</td>
-	<td>8:00 a.m. to 7:00 p.m.</td>
+	<td>THỨ 2 VÀ THỨ 3</td>
+	
+	<td>8:00 SÁNG ĐẾN 7:00 CHIỀU.</td>
 	</tr>
 	<tr>
-	<td>Wednesday to Friday</td>
-	<td>BREAK</td>
-	<td>8:00 a.m. to 6:30 p.m.</td>
+	<td>THỨ 4 ĐẾN THỨ 6</td>
+	
+	<td>8:00 SÁNG ĐẾN 6:30 CHIỀU.</td>
 	</tr>
 	</tbody>
 	</table>
 	
 	<table class="staff" >
-	<thead><tr><th colspan="3"  style="text-align: center;"><h3>LIBRARY STAFF</h3></th></tr></thead>
+	<thead><tr><th colspan="3"  style="text-align: center;"><h3>QUẢN LÝ THƯ VIỆN</h3></th></tr></thead>
 	<tbody>
 	<tr>
 	<td colspan="3"></td>
 	</tr>
 	<tr>
-	<td>Ms.Purano<br />Librarian </td>
+	<td>TRẦN VĂN AN<br />THƯ VIỆN EPU </td>
 	</tr>
 	
 	</tbody>

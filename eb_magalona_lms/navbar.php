@@ -10,21 +10,17 @@
                     </a>
                     <div class="nav-collapse collapse">
 					<ul class="nav">
-					<li class="divider-vertical"></li><li class=""><a  rel="tooltip"  data-placement="bottom" title="Home" id="home"   href="index.php"><i class="icon-home icon-large"></i>&nbsp;Home</a> </li>
+					<li class="divider-vertical"></li><li class=""><a  rel="tooltip"  data-placement="bottom" title="Trang chủ" id="home"   href="index.php"><i class="icon-home icon-large"></i>&nbsp;Trang chủ</a> </li>
 					<li class="divider-vertical"></li>
 					<li class="">
-					<a rel="tooltip"  data-placement="bottom" title="Click Here to About" id="login" href="about.php"><i class="icon-info-sign icon-large"></i>&nbsp;About</a> 
+					<a rel="tooltip"  data-placement="bottom" title="Bấm vào để truy cập về chúng tôi" id="login" href="about.php"><i class="icon-info-sign icon-large"></i>&nbsp;Về chúng tôi</a> 
 					</li>
 					<li class="divider-vertical"></li>
 					<li class="">
-					<a rel="tooltip"  data-placement="bottom" title="Click Here to About" id="login" href="librarian"><i class="icon-user icon-large"></i>&nbsp;Admin</a>
+					<a rel="tooltip"  data-placement="bottom" title="Bấm vào để truy cập quản trị" id="login" href="librarian"><i class="icon-user icon-large"></i>&nbsp;Quản lý</a>
 					</li>
 					<li class="divider-vertical"></li>
-					<li class="divider-vertical"></li>
-					<li class="divider-vertical"></li>
-				
-					<li class="divider-vertical"></li>
-					<li class="signup"><span class="sg"></span></li>
+										<li class="signup"><span class="sg"></span></li>
 					</ul>
 
 			

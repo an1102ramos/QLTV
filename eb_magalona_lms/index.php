@@ -24,18 +24,16 @@
 					<div class="text_content">
 					<div class="abc">
 					<!-- text content -->
-					<h4>Vision</h4>
+					<h4>Giới thiệu</h4>
 					<hr>
 					<p>
-					By 2016.  E.B.Magalona National High School is a center of learning were stackholders are conscientiously involved in loning holistic 
-					individuals committed to positively respond to the needs of the school, community and the country.
+					Trường Đại học Điện lực (tiếng Anh: Electric Power University) trực thuộc Bộ Công thương Việt Nam, là trường đại học định hướng ứng dụng-thực hành, chuyên đào tạo cử nhân và kỹ sư hệ 4.5 năm, được thành lập ngày 19 tháng 5 năm 2006, trên cơ sở nâng cấp trường Cao đẳng Điện lực.
 					</p>
 					<hr>
-					<h4>Mission</h4>
+					<h4>Sứ  mệnh</h4>
 					<hr>
 					<p>
-					To nurture students to become productive responsible citizens through the assistance of service - 
-					oriented and highly competent internal and external stakeholders working in a harmonious relationship.
+					Tạo ra những kỹ sư, cử nhân đẳng cấp
 					</p>
 					<hr>
 					</div>

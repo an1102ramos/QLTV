@@ -1,11 +1,11 @@
 		<div class="span12">
 				<div class="header">
 				<div class="pull-left">
-				<img class="stilogo" src="LMS/E.B. Magalona.png">
+				<img class="stilogo" src="LMS/EUP.jpg">
 				</div>
 				</div>
 
-					<div class="alert alert-info"><Strong>Heads Up!</strong>&nbsp;Welcome to E.B. Magalona Library
+					<div class="alert alert-info"><Strong>Chào mừng đến với thư viện trường đại học Điện Lực!</strong>&nbsp;
 					
 					
 					

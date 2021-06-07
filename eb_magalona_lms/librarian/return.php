@@ -27,7 +27,7 @@
 								LEFT JOIN member ON borrow.member_id = member.member_id
 								LEFT JOIN borrowdetails ON borrow.borrow_id = borrowdetails.borrow_id
 								LEFT JOIN book on borrowdetails.book_id =  book.book_id 
-								where borrowdetails.borrow_status = 'returned'ORDER BY borrow.borrow_id DESC
+								where borrowdetails.borrow_status = 'Đã trả'ORDER BY borrow.borrow_id DESC
 								  ")or die(mysqli_error());
 									while($row=mysqli_fetch_array($user_query)){
 									$id=$row['borrow_id'];
